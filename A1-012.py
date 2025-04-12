@@ -1,0 +1,6 @@
+get = input()
+sign = input()
+teg = int(get[::-1])
+get = int(get)
+res = eval(f"{get} {sign}{teg}")
+print(f"{get} {sign} {teg} = {res}")
